@@ -4,7 +4,7 @@ require_relative '../node_modules/react-native/scripts/react_native_pods'
   platform :ios, '12.4'
   install! 'cocoapods', :deterministic_uuids => false
   
-  target 'fntest' do
+  target 'MyApp' do
     config = use_native_modules!
   
     # Flags change depending on the env values.
@@ -19,7 +19,7 @@ require_relative '../node_modules/react-native/scripts/react_native_pods'
       :app_path => "#{Pod::Config.instance.installation_root}/.."
     )
   
-    target 'fntestTests' do
+    target 'MyAppTests' do
       inherit! :complete
       # Pods for testing
     end
