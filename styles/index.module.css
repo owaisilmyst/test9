@@ -1,15 +1,15 @@
 .rectangleDiv {
   position: absolute;
-  top: 693px;
-  left: 428px;
+  top: 626px;
+  left: 360px;
   background-color: #d9d9d9;
-  width: 732px;
-  height: 732px;
+  width: 260px;
+  height: 197px;
 }
 .frameDiv {
   position: relative;
   background-color: #fff;
   width: 100%;
-  height: 2119px;
+  height: 1646px;
   overflow: hidden;
 }
